@@ -53,18 +53,3 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: estimated_hours
-    attributes:
-      label: Estimated Hours
-      placeholder: "Example: 10, 20.5"
-    validations:
-      required: false
-
-  - type: input
-    id: actual_hours
-    attributes:
-      label: Actual Hours
-      placeholder: "Example: 10, 20.5"
-    validations:
-      required: false
