@@ -35,47 +35,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: Bug_type
-    attributes:
-      label: Bug Type
-      options:
-        - Functional
-        - UI
-        - Security
-        - Infra
-        - Performance
-        - Compatibility
-        - Integration
-        - Data
-        - Regression
-    validations:
-      required: true
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      options:
-        - Lowest
-        - Low
-        - Medium
-        - High
-        - Highest
-    validations:
-      required: true
-      
-  - type: dropdown
-    id: severity
-    attributes:
-      label: Severity
-      options:
-        - Sev 4
-        - Sev 3
-        - Sev 2
-        - Sev 1
-    validations:
-      required: true
 
   - type: textarea
     id: supporting_documentation
